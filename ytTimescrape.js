@@ -1,3 +1,5 @@
+arr = document.getElementsByClassName("style-scope ytd-thumbnail-overlay-time-status-renderer")
+
 let output = []
 for (let v of arr) {
     output.push(v.innerHTML.trim())
