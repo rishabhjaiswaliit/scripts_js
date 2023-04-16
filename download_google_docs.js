@@ -1,3 +1,4 @@
+// USE FIREFOX
 let jspdf = document.createElement("script");
 jspdf.onload = function () {
     // let pdf = new jsPDF();
