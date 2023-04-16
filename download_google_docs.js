@@ -1,6 +1,7 @@
 let jspdf = document.createElement("script");
 jspdf.onload = function () {
-    let pdf = new jsPDF();
+    // let pdf = new jsPDF();
+    let pdf = new jsPDF('p', 'mm', [297*5, 210*5]);
     let elements = document.getElementsByTagName("img");
     for (let i in elements) {
         let img = elements[i];
